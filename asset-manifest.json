@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UltimateTTT/static/css/main.9cdf3a19.css",
+    "main.js": "/UltimateTTT/static/js/main.336bb73e.js",
+    "static/media/smallGameChange.mp3": "/UltimateTTT/static/media/smallGameChange.93f2df79eaa65bf79dcd.mp3",
+    "static/media/win.mp3": "/UltimateTTT/static/media/win.12d2c3fd2079ee9adf87.mp3",
+    "static/media/click.mp3": "/UltimateTTT/static/media/click.96966333aa989c794362.mp3",
+    "index.html": "/UltimateTTT/index.html",
+    "main.9cdf3a19.css.map": "/UltimateTTT/static/css/main.9cdf3a19.css.map",
+    "main.336bb73e.js.map": "/UltimateTTT/static/js/main.336bb73e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cdf3a19.css",
+    "static/js/main.336bb73e.js"
+  ]
+}
