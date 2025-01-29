@@ -1,0 +1,122 @@
+.app {
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.how-to-play{
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(119, 128, 117);
+    text-decoration: none;
+}
+.win{
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+    padding: 5px 20px;
+    border: 5px dashed greenyellow;
+    font-size: 25px;
+    font-weight: 500;
+}
+.restart{
+    margin-top: 30px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(166, 255, 0);
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.strike-h-top{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: 0 56px;
+    width: 342px;
+    height: 3px;
+    background-color: black;
+}
+.strike-h-middle{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: 0 172px;
+    width: 342px;
+    height: 3px;
+    background-color: black;
+}
+.strike-h-bottom{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: 0 288px;
+    width: 342px;
+    height: 3px;
+    background-color: black;
+}
+
+.strike-v-left{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: -115px 171px;
+    width: 344px;
+    height: 3px;
+    background-color: black;
+    rotate: 90deg;
+}
+.strike-v-middle{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: 3px 171px;
+    width: 342px;
+    height: 3px;
+    background-color: black;
+    rotate: 90deg;
+}
+.strike-v-right{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: 118px 175px;
+    width: 342px;
+    height: 3px;
+    background-color: black;
+    rotate: 90deg;
+}
+.strike-d-top-left{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: -65px 169px;
+    width: 470px;
+    height: 3px;
+    background-color: black;
+    rotate: 45deg;
+}
+
+.strike-d-bottom-right{
+    animation: fade-in 0.5s ease-in;
+    position: absolute;
+    translate: -65px 174px;
+    width: 470px;
+    height: 3px;
+    background-color: black;
+    rotate: -45deg;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0;  }
+    100% { opacity: 1;  }
+}
