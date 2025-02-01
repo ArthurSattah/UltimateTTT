@@ -30,17 +30,17 @@
     100% { opacity: 1;  }
 }
 .shouldEndX{
-    display: unset;
+    display: flex;
     background-color: blue;
     animation: fade-in 0.5s ease-in;
 }
 .shouldEndO{
-    display: unset;
+    display: flex;
     background-color: red;
     animation: fade-in 0.5s ease-in;
 }
 .shouldEnd-{
-    display: unset;
+    display: flex;
     background-color: orange;
     animation: fade-in 0.5s ease-in;
 }
